@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_main"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_xo_game"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/etGridSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter grid size"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnCreateGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_grid"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_with_bot"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
